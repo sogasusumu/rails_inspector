@@ -9,3 +9,6 @@ rspec_install:
 
 linter:
 	bundle exec rubocop ./lib -c .rubocop.yml -R -a
+
+console:
+	spec/dummy/bin/rails c

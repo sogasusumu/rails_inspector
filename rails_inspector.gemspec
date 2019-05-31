@@ -32,4 +32,5 @@ Gem::Specification.new do |spec|
   # https://github.com/colszowka/simplecov
   spec.add_development_dependency "simplecov"
   spec.add_development_dependency "rubocop"
+  spec.add_development_dependency "rubocop-rails"
 end

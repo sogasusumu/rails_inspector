@@ -13,3 +13,6 @@ ClassAndModuleChildren:
 # クラスにコメントを残さない
 Documentation:
   Enabled: false
+
+Metrics/LineLength:
+  Max: 120
