@@ -9,15 +9,15 @@ Gem::Specification.new do |spec|
   spec.version     = RailsInspector::VERSION
   spec.authors     = ["曽我進"]
   spec.email       = ["soga@yocto-inc.com"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of RailsInspector."
-  spec.description = "TODO: Description of RailsInspector."
+  spec.homepage    = ""
+  spec.summary     = ""
+  spec.description = ""
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata["allowed_push_host"] = ""
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
@@ -28,4 +28,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rails", "~> 5.2.3"
 
   spec.add_development_dependency "sqlite3"
+  spec.add_development_dependency "rspec-rails"
+  # https://github.com/colszowka/simplecov
+  spec.add_development_dependency "simplecov"
+  spec.add_development_dependency "rubocop"
 end
