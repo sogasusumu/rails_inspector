@@ -21,7 +21,7 @@ RailsInspector.models
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rails_inspector'
+gem 'rails_inspector', git: 'https://github.com/sogasusumu/rails_inspector.git'
 ```
 
 And then execute:
