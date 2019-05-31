@@ -1,8 +1,21 @@
 # RailsInspector
-Short description and motivation.
+RailsApplicationの以下の定義を取得するPluginです。
+
+- routesに定義されたController及びAction
+- ApplicationRecordを継承したClasses
 
 ## Usage
-How to use my plugin.
+routesに定義されたController及びActionを取得する
+```ruby
+RailsInspector.controller_with_actions
+# => [{ controller: 'posts', action: 'index' }, ...]
+```
+
+ApplicationRecordを継承したClassesを取得する
+```ruby
+RailsInspector.models
+# => ['post', 'comment', ...]
+```
 
 ## Installation
 Add this line to your application's Gemfile:
